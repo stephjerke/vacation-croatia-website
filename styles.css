@@ -15,8 +15,7 @@ body {
   background-color: #d0d0d0;
   color: rgb(0, 0, 0);
 
-  --primary-color: #ff0000;
-  --sub-primary-color: #0a3fa1;
+  --primary-color: #0a3fa1;
   --sub-text-color: #000000;
 }
 
@@ -54,8 +53,8 @@ nav {
   align-items: center;
   text-align: center;
   background: linear-gradient(
-      rgba(151, 148, 148, 0.6),
-      rgba(151, 148, 148, 0.6)
+      rgba(125, 124, 124, 0.6),
+      rgba(125, 124, 124, 0.6)
     ),
     url("images/hero.jpg");
   background-size: cover;
@@ -73,7 +72,7 @@ nav {
 .subtitle {
   font-size: 1rem;
   margin: 0;
-  color: var(--sub-text-color);
+  color: var(--text-color);
 }
 
 .hero-action {
@@ -84,16 +83,16 @@ nav {
 .button-inverted {
   width: fit-content;
   padding: 1rem 2rem;
-  border: 1px solid var(--sub-primary-color);
+  border: 1px solid var(--primary-color);
   color: #fff;
-  background-color: var(--sub-primary-color);
+  background-color: var(--primary-color);
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
 
 .button-inverted {
   background-color: transparent;
-  color: var(--sub-primary-color);
+  color: var(--primary-color);
 }
 
 .button:hover {
@@ -163,8 +162,8 @@ nav {
   justify-content: center;
   padding: 5rem 5rem;
   background: linear-gradient(
-      rgba(151, 148, 148, 0.6),
-      rgba(151, 148, 148, 0.6)
+      rgba(125, 124, 124, 0.6),
+      rgba(125, 124, 124, 0.6)
     ),
     url("images/vacation.jpg");
   background-position: center;
@@ -236,7 +235,7 @@ nav {
   padding: 2rem 1rem;
   font-size: 0.8rem;
   text-align: center;
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(105, 105, 105, 0.6);
 }
 
 .footer-content {
@@ -281,6 +280,7 @@ nav {
   .button,
   .button-inverted {
     padding: 1.2rem 2.5rem;
+    margin-top: 1rem;
   }
 
   .text-about {
@@ -300,6 +300,10 @@ nav {
 
   .info-contents {
     margin: 4rem 0;
+  }
+
+  .about {
+    padding: 1rem 2rem;
   }
 }
 
