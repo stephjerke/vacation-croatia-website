@@ -225,7 +225,6 @@ nav {
 
 .contact-image {
   width: 100%;
-  object-fit: scale-down;
 }
 
 .footer {
@@ -237,7 +236,7 @@ nav {
   padding: 2rem 1rem;
   font-size: 0.8rem;
   text-align: center;
-  background-color: dimgrey;
+  background-color: rgb(105, 105, 105);
 }
 
 .footer-content {
@@ -253,7 +252,7 @@ nav {
   color: var(--text-color);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .nav,
   .footer-content {
     gap: 2rem;
@@ -296,6 +295,7 @@ nav {
 
   .contact-image {
     width: 60%;
+    margin-top: 0.5rem;
   }
 
   .info-contents {
