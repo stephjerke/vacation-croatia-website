@@ -132,12 +132,17 @@ nav {
   color: var(--text-color);
 }
 
+.action-about {
+  padding: 2rem 1rem;
+}
+
 .about-images {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: flex;
   gap: 0.5rem;
+  padding: 1rem 0.8rem;
 }
 
 .about-image {
@@ -251,7 +256,7 @@ nav {
   color: var(--text-color);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .nav,
   .footer-content {
     gap: 2rem;
